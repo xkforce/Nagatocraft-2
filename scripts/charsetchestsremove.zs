@@ -1,0 +1,17 @@
+recipes.remove(<charset:chest>);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

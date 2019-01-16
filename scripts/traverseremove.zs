@@ -1,0 +1,26 @@
+recipes.remove(<traverse:red_rock_cobblestone> * 8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

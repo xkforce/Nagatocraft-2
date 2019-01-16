@@ -1,0 +1,25 @@
+import minetweaker.item.IIngredient;
+
+val FurnaceR = [
+//add here all smelting outputs that should be removed!
+
+] as IIngredient[];
+
+val SeedsR = [
+//add here all Seeds that should no longer drop from grass!
+
+] as IIngredient[];
+
+
+
+
+
+
+for r, each in FurnaceR {
+  furnace.remove(FurnaceR[r]);
+}
+
+
+for r, each in SeedsR {
+  vanilla.seeds.removeSeed(SeedsR[r]);
+} 
