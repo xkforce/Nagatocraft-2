@@ -1,0 +1,36 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "3",
+            "type":
+            {
+            "type": "block",
+            "name": "plants2:cosmetic_0",
+            "meta": 3
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:dye",
+			"meta": 15
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            }     
+            ],
+			"drops":
+			[
+            {
+            "name": "plants2:cosmetic_0",
+            "meta": 3
+            }
+			]
+        }
+    ]
+}

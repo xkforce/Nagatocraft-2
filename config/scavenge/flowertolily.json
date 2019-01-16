@@ -1,0 +1,40 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "flowertolily",
+            "type":
+            {
+            "type": "block",
+            "name": "biomesoplenty:waterlily",
+            "meta": 3
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:dye",
+			"meta": 15
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "minecraft:waterlily"
+            }       
+            ],
+			"drops":
+			[
+            {
+            "name": "biomesoplenty:waterlily",
+            "meta": 3
+            }
+			]
+        }
+    ]
+}

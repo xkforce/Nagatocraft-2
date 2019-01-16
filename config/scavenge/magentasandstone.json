@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "magentasandstone",
+            "type":
+            {
+            "type": "ore",
+            "name": "yukisandstone"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:magenta_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 4
+            },
+            {
+            "type": "consume_block",
+            "name": "contenttweaker:magentasandstone"
+            }
+            ]
+        }
+    ]
+}

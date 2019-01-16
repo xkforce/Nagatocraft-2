@@ -1,0 +1,35 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "blackpanes",
+            "type":
+            {
+            "type": "block",
+            "name": "minecraft:gold_block"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:pumpkin"
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "use_command",
+            "name": "summon",
+            "arguments":"villager_golem"
+            },
+            {
+            "type": "consume_block"
+            }
+            ]
+        }
+    ]
+}

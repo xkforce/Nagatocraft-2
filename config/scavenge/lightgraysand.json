@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "lightgraysand",
+            "type":
+            {
+            "type": "ore",
+            "name": "yukisand"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:silver_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "contenttweaker:lightgraysand"
+            }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "blackpanes",
+            "type":
+            {
+            "type": "ore",
+            "name": "glasspane"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:black_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "minecraft:stained_glass_pane",
+            "meta": 15
+            }
+            ]
+        }
+    ]
+}

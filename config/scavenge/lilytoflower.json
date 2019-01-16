@@ -1,0 +1,33 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "lilytoflower",
+            "type":
+            {
+            "type": "block",
+            "name": "minecraft:waterlily"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:dye",
+			"meta": 15
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "biomesoplenty:waterlily",
+            "meta": 3
+            }
+            ]
+        }
+    ]
+}

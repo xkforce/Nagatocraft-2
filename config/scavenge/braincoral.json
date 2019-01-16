@@ -1,0 +1,34 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "braincoral",
+            "type":
+            {
+            "type": "block",
+            "name": "zawa:brain_coral"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:dye",
+			"meta": 15
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            }     
+            ],
+			"drops":
+			[
+            {
+            "name": "zawa:brain_coral"
+            }
+			]
+        }
+    ]
+}

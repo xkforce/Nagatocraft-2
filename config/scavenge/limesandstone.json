@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "limesandstone",
+            "type":
+            {
+            "type": "ore",
+            "name": "yukisandstone"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:lime_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 4
+            },
+            {
+            "type": "consume_block",
+            "name": "contenttweaker:limesandstone"
+            }
+            ]
+        }
+    ]
+}
