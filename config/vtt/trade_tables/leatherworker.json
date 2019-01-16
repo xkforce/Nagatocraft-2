@@ -1,0 +1,11 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+		
+		]
+	}
+
+}

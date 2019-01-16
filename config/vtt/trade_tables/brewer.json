@@ -1,0 +1,18 @@
+{ 
+	Profession:"vtt:brewer",
+	Career:"brewer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:wheat",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1, chance:0.5},
+			{action:"add", buy:{id:"harvestcraft:barleyitem",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1, chance:0.5},
+			{action:"add", buy:{id:"harvestcraft:oatsitem",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1, chance:0.5},
+			{action:"add", buy:{id:"harvestcraft:ryeitem",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1, chance:0.5},
+			{action:"add", buy:{id:"extratrees:hops",Count:{min:18,max:22}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"extratrees:misc",Count:{min:2,max:4},Damage:4}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:1},sell:{id:"extratrees:misc",Count:{min:2,max:4},Damage:5}, CareerLevel:2}
+
+		]
+	}
+}

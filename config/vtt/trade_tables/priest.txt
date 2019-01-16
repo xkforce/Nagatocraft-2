@@ -1,0 +1,260 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"cleric",
+
+	Offers:{
+		Recipes:[
+		
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_shovel",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_shovel",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_pickaxe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_pickaxe",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_axe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_axe",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_hoe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_hoe",Count:1}
+			},
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_leggings",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_leggings",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_helmet",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_helmet",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_chestplate",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_chestplate",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:diamond_boots",Count:1, chance:0.1}},
+				sell: {id:"minecraft:diamond_boots",Count:1}
+			},
+    			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_shovel",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_shovel",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_pickaxe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_pickaxe",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_axe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_axe",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_hoe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_hoe",Count:1}
+			},
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_leggings",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_leggings",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_helmet",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_helmet",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_chestplate",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_chestplate",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:iron_boots",Count:1, chance:0.1}},
+				sell: {id:"minecraft:iron_boots",Count:1}
+			},
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_shovel",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_shovel",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_pickaxe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_pickaxe",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_axe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_axe",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_hoe",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_hoe",Count:1}
+			},
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_leggings",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_leggings",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_helmet",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_helmet",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_chestplate",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_chestplate",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:golden_boots",Count:1, chance:0.1}},
+				sell: {id:"minecraft:golden_boots",Count:1}
+			},
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"thermalfoundation:armor.legs_copper",Count:1, chance:0.1}},
+				sell: {id:"thermalfoundation:armor.legs_copper",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"thermalfoundation:armor.helmet_copper",Count:1, chance:0.1}},
+				sell: {id:"thermalfoundation:armor.helmet_copper",Count:1}
+			},
+			
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"thermalfoundation:armor.plate_copper",Count:1, chance:0.1}},
+				sell: {id:"thermalfoundation:armor.plate_copper",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"thermalfoundation:armor.boots_copper",Count:1, chance:0.1}},
+				sell: {id:"thermalfoundation:armor.boots_copper",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:shears",Count:1, chance:0.1}},
+				sell: {id:"minecraft:minecraft:shears",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:bow",Count:1, chance:0.1}},
+				sell: {id:"minecraft:minecraft:bow",Count:1}
+			},
+                        {
+				action: "add",
+				CareerLevel: 4,
+				buyB: {id:"minecraft:emerald",Count:{min:2,max:4}}, buy: {id:"minecraft:fishing_rod",Count:1, chance:0.1}},
+				sell: {id:"minecraft:minecraft:fishing_rod",Count:1}
+			},
+
+			
+action:"add", CareerLevel:4, 
+				buy:{
+					id:"minecraft:emerald",
+					Count:[
+						{min:10,max:12},
+						{min:16,max:19},
+						{min:14,max:17},
+						{min:8,max:10}
+					]
+				},
+				sell:{
+					id:[
+						"minecraft:iron_helmet",
+						"minecraft:iron_chestplate",
+						"minecraft:iron_leggings",
+						"minecraft:iron_boots",
+						"minecraft:gold_helmet",
+						"minecraft:gold_chestplate",
+						"minecraft:gold_leggings",
+						"minecraft:gold_boots",
+						"minecraft:diamond_helmet",
+						"minecraft:diamond_chestplate",
+						"minecraft:diamond_leggings",
+						"minecraft:diamond_boots",
+						"minecraft:diamond_helmet",
+						"minecraft:diamond_chestplate",
+						"minecraft:diamond_leggings",
+						"minecraft:diamond_boots"
+					],
+					Count:[1,1,1,1]
+					}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		]
+	}
+
+}

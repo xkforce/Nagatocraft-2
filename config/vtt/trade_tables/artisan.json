@@ -1,0 +1,34 @@
+{ 
+	Profession:"vtt:tinkerer",
+	Career:"artisan",
+
+	Offers:{
+		Recipes:[
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"ctdpaint:unused_brush",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"plants2:generic",Count:{min:36,max:40},Damage:1},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:1},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:2},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"plants2:generic",Count:{min:36,max:40},Damage:3},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"plants2:generic",Count:{min:16,max:24},Damage:2},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:5},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:6},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:7},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:8},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:9},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:10},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:11},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:12},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:13},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"minecraft:dye",Count:{min:36,max:40},Damage:14},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+			{action:"add", buy:{id:"plants2:generic",Count:{min:16,max:24},Damage:4},sell:{id:"emerald",Count:1}, CareerLevel:1, chance:0.25},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"minecraft:noteblock",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:6,max:10}},sell:{id:"minecraft:painting",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"minecraft:jukebox",Count:1}, CareerLevel:3},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"bard_mania:banjo",Count:1}, CareerLevel:4},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"bard_mania:flute",Count:1}, CareerLevel:4},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"bard_mania:marching_drums",Count:1}, CareerLevel:4},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"bard_mania:lyre",Count:1}, CareerLevel:4},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:13}},sell:{id:"bard_mania:recorder",Count:1}, CareerLevel:4},
+		]
+	}
+}

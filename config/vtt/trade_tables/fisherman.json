@@ -1,0 +1,19 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fisherman",
+
+	Offers:{
+		Recipes:[
+
+			{action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:bow"}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:2,max:3}},sell:{id:"minecraft:fishing_rod",Count:1}, CareerLevel:2},
+            {action:"add", buyB: {id:"minecraft:fish@1",Count:6}, buy: {id:"minecraft:emerald",Count:1}, sell: {id:"minecraft:cooked_fish@1",Count:6}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:8}},sell:{id:"minecraft:fishing_rod",Count:1,tag:{ench:"random"}}, CareerLevel:3}
+            {action:"add", buyB: {id:"minecraft:emerald",Count:{min:7,max:10}}, buy: {id:"minecraft:web",Count:4, chance:0.1}},sell: {id:"cyclicmagic:block_fishing",Count:1}, CareerLevel:4},
+
+            },
+
+		]
+	}
+
+}

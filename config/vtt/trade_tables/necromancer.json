@@ -1,0 +1,69 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"necromancer",
+
+	Offers:{
+		Recipes:[
+		
+                {action: "add",	buyB: {id:"minecraft:emerald",Count:{min:8,max:12}}, buy: {id:"minecraft:elytra",Count:1},sell: {id:"minecraft:elytra",Count:1, ench:"random},CareerLevel: 1},
+
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:sapphire",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:amethyst",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:aquamarine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:citrine",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:ruby",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:spinel",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:topaz",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:sapphire",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:amethyst",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:aquamarine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:citrine",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:ruby",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"contenttweaker:topaz",Count:2},CareerLevel: 2, chance:0.1},
+                {action: "add",buyB: {id:"contenttweaker:spinel",Count:1}, buy: {id:"minecraft:emerald",Count:{min:8,max:12}},sell: {id:"minecraft:diamond",Count:2},CareerLevel: 2, chance:0.1},
+
+        ]
+	}
+
+}

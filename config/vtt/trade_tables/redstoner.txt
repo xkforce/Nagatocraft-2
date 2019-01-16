@@ -1,0 +1,20 @@
+{ 
+	Profession: "vtt:redstoner", 
+	Career:"redstoner",
+
+	Offers:{
+		Recipes:[
+			{action:"add", buy:{id:"minecraft:nether_quartz",Count:{min:12,max:16}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:redstone",Count:{min:15,max:20}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"minecraft:tripwire_hook",Count:1}, CareerLevel:2},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:8,max:12}},sell:{id:"minecraft:repeater",Count:1},CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:16}},sell:{id:"minecraft:comparator",Count:1},CareerLevel:3},
+			
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:16}},sell:{id:"minecraft:daylight_detector",Count:1},CareerLevel:4}
+
+		]
+	}
+
+}

@@ -1,0 +1,50 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"armor",
+
+	Offers:{
+		Recipes:[
+		
+                        {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:iron_helmet"}, CareerLevel:1},
+                        {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:iron_chestplate"}, CareerLevel:2},
+                        {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:diamond_chestplate"}, CareerLevel:3},
+                        {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:iron_ingot"}, CareerLevel:2},
+
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.helmet_copper",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.helmet_tin",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"thermalfoundation:armor.helmet_bronze",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"minecraft:iron_helmet",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:armor.helmet_steel",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:12}},sell:{id:"minecraft:diamond_helmet",Count:1,tag:{ench:"random"}}, CareerLevel:3, chance:0.25},
+
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.boots_copper",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.boots_tin",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.boots_bronze",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"minecraft:iron_boots",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:3,max:5}},sell:{id:"thermalfoundation:armor.boots_steel",Count:1}, CareerLevel:1, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:8,max:10}},sell:{id:"minecraft:diamond_boots",Count:1,tag:{ench:"random"}}, CareerLevel:3, chance:0.25},
+
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:13}},sell:{id:"thermalfoundation:armor.plate_copper",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:13}},sell:{id:"thermalfoundation:armor.plate_tin",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:13}},sell:{id:"thermalfoundation:armor.plate_bronze",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:10,max:14}},sell:{id:"minecraft:iron_chestplate",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:13}},sell:{id:"thermalfoundation:armor.plate_steel",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:16,max:19}},sell:{id:"minecraft:diamond_chestplate",Count:1,tag:{ench:"random"}}, CareerLevel:3, chance:0.25},
+
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:armor.legs_copper",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:armor.legs_tin",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:armor.legs_bronze",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:8,max:10}},sell:{id:"minecraft:iron_leggings",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:armor.legs_steel",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:emerald",Count:{min:14,max:17}},sell:{id:"minecraft:diamond_leggings",Count:1,tag:{ench:"random"}}, CareerLevel:3, chance:0.25},
+
+                        {action:"add", buy:{id:"thermalfoundation:material",Count:{min:9,max:12},Damage:128},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"thermalfoundation:material",Count:{min:9,max:12},Damage:129},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"thermalfoundation:material",Count:{min:7,max:9},Damage:163},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"thermalfoundation:material",Count:{min:6,max:8},Damage:160},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2, chance:0.2},
+                        {action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:7,max:9}},sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2, chance:0.2},
+
+			
+		]
+	}
+}

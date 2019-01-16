@@ -1,0 +1,37 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"tool",
+
+	Offers:{
+		Recipes:[
+            {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:iron_shovel"}, CareerLevel:1},
+            {action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:iron_pickaxe"}, CareerLevel:2},
+                        
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"thermalfoundation:tool.shovel_copper",Count:1}, CareerLevel:1, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:4,max:6}},sell:{id:"thermalfoundation:tool.shovel_tin",Count:1}, CareerLevel:1, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:7}},sell:{id:"thermalfoundation:tool.shovel_bronze",Count:1}, CareerLevel:1, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:5,max:7}},sell:{id:"minecraft:iron_shovel",Count:1}, CareerLevel:1, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:10}},sell:{id:"thermalfoundation:tool.shovel_steel",Count:1}, CareerLevel:2, chance:0.2},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:12}},sell:{id:"minecraft:diamond_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:tool.pickaxe_copper",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:7,max:9}},sell:{id:"thermalfoundation:tool.pickaxe_tin",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:11}},sell:{id:"thermalfoundation:tool.pickaxe_bronze",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:11}},sell:{id:"minecraft:iron_pickaxe",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:11,max:13}},sell:{id:"thermalfoundation:tool.pickaxe_steel",Count:1}, CareerLevel:2, chance:0.2},
+            {action:"add", buy:{id:"minecraft:emerald",Count:3},sell:{id:"flint_and_steel ",Count:1}, CareerLevel:2},
+                        
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:12}},sell:{id:"thermalfoundation:tool.hammer_copper",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:9,max:12}},sell:{id:"thermalfoundation:tool.hammer_tin",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:12,max:15}},sell:{id:"thermalfoundation:tool.hammer_bronze",Count:1}, CareerLevel:2, chance:0.2},
+            {action:"add", buy:{id:"minecraft:emerald",Count:{min:12,max:15}},sell:{id:"thermalfoundation:tool.hammer_iron",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:13,max:17}},sell:{id:"thermalfoundation:tool.hammer_steel",Count:1}, CareerLevel:2, chance:0.2},
+			{action:"add", buy:{id:"minecraft:emerald",Count:{min:15,max:19}},sell:{id:"thermalfoundation:tool.hammer_diamond",Count:1}, CareerLevel:3},
+			
+			
+			
+			
+		]
+	}
+
+}
