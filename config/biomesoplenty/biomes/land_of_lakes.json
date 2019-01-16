@@ -1,0 +1,138 @@
+{
+  "enableRain": true,
+  "canGenerateRivers": true,
+  "beachBiomeLocation": "biomesoplenty:gravel_beach",
+  "rainfall": 0.9,
+  "skyColor": -1,
+  "guiColour": 6725742,
+  "fogDensity": 1.0,
+  "hasBiomeEssence": true,
+  "variationBelow": 10.0,
+  "variationAbove": 10.0,
+  "waterColor": 16777215,
+  "seaFloorBlock": {
+    "block": "biomesoplenty:mud",
+    "properties": {
+      "variant": "mud"
+    }
+  },
+  "fillerBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "averageHeight": 63.0,
+  "topBlock": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+  },
+  "fogColor": -1,
+  "temperature": 0.5,
+  "canGenerateVillages": false,
+  "canSpawnInBiome": true,
+  "enableSnow": false,
+  "generators": {
+    "glowshrooms": {
+      "enable": true
+    },
+    "leaf_piles": {
+      "enable": false
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "medium_lily": {
+      "enable": false
+    },
+    "dead_leaf_piles": {
+      "enable": false
+    },
+    "algae": {
+      "enable": false
+    },
+    "roots": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "trees": {
+      "amountPerChunk": 40.0,
+      "enable": true,
+      "generators": {}
+    },
+    "water_reeds": {
+      "enable": false
+    },
+    "wild_rice": {
+      "enable": false
+    },
+    "small_lily": {
+      "enable": false
+    },
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 10.0,
+      "enable": true,
+      "generators": {}
+    },
+    "lily": {
+      "with": {
+        "block": "minecraft:waterlily",
+        "properties": {}
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
+    "lakes": {
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 1.0,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+      }
+    },
+    "tiny_lily": {
+      "enable": false
+    },
+    "mud": {
+      "enable": true
+    }
+  },
+  "weights": {
+    "cold_swamp": 3
+  }
+}

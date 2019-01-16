@@ -1,0 +1,147 @@
+{
+  "enableRain": true,
+  "canGenerateRivers": true,
+  "rainfall": 1.0,
+  "skyColor": -1,
+  "guiColour": 6394725,
+  "fogDensity": 1.0,
+  "hasBiomeEssence": true,
+  "variationBelow": 8.0,
+  "variationAbove": 10.0,
+  "waterColor": 5800566,
+  "seaFloorBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "fillerBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "averageHeight": 88.0,
+  "topBlock": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+  },
+  "fogColor": -1,
+  "temperature": 0.6,
+  "canGenerateVillages": false,
+  "canSpawnInBiome": false,
+  "enableSnow": false,
+  "generators": {
+    "glowshrooms": {
+      "enable": false
+    },
+    "flowers": {
+      "amountPerChunk": 0.6,
+      "enable": true,
+      "generators": {}
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "brown_mushrooms": {
+      "with": {
+        "block": "minecraft:brown_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
+    "algae": {
+      "enable": false
+    },
+    "roots": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 6,
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
+    "koru": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "koru"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.6,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 2.0,
+      "enable": true,
+      "generators": {}
+    },
+    "lakes": {
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 1.5,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+    "block": "minecraft:grass",
+    "properties": {
+      "snowy": "false"
+    }
+      }
+    },
+    "red_mushrooms": {
+      "with": {
+        "block": "minecraft:red_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "mud": {
+      "enable": true
+    }
+  },
+  "weights": {
+    "cold_swamp": 5
+  }
+}

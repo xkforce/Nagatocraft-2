@@ -1,0 +1,185 @@
+{
+  "enableRain": true,
+  "canGenerateRivers": false,
+  "beachBiomeLocation": "biomesoplenty:gravel_beach",
+  "rainfall": 0.4,
+  "skyColor": -1,
+  "guiColour": 12240001,
+  "fogDensity": 1.0,
+  "hasBiomeEssence": true,
+  "variationBelow": 8.0,
+  "variationAbove": 6.0,
+  "waterColor": 16777215,
+  "seaFloorBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "fillerBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "averageHeight": 63.0,
+  "topBlock": {
+    "block": "minecraft:dirt",
+    "properties": {
+      "snowy": "false",
+      "variant": "dirt"
+    }
+  },
+  "fogColor": -1,
+  "temperature": 0.4,
+  "canGenerateVillages": false,
+  "canSpawnInBiome": false,
+  "enableSnow": false,
+  "generators": {
+    "cattail": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "cattail"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "medium_lily": {},
+    "dead_leaf_piles": {
+      "enable": false
+    },
+    "brown_mushrooms": {
+      "with": {
+        "block": "minecraft:brown_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.4,
+      "enable": true
+    },
+    "algae": {},
+    "trees": {
+      "amountPerChunk": 6.0,
+      "enable": false,
+      "generators": {}
+    },
+    "portobellos": {},
+    "small_lily": {},
+    "flower_lily": {},
+    "koru": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "koru"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 5.0,
+      "enable": true,
+      "generators": {}
+    },
+    "double_cattail": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "tall_cattail"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "tall_cattail"
+        }
+      }
+    },
+    "tiny_lily": {},
+    "red_mushrooms": {
+      "with": {
+        "block": "minecraft:red_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.4,
+      "enable": true
+    },
+    "flat_mushroom": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "flat_mushroom"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "glowshrooms": {
+      "enable": false
+    },
+    "flowers": {},
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "roots": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "water_reeds": {
+      "enable": false
+    },
+    "toadstools": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "toadstool"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
+    "gravel": {},
+    "lily": {
+      "with": {
+        "block": "minecraft:waterlily",
+        "properties": {}
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "mud": {
+      "enable": true
+    },
+    "river_cane": {
+      "enable": false
+    }
+  },
+  "weights": {
+    "cold_swamp": 7
+  }
+}
