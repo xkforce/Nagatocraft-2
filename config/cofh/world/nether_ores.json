@@ -1,0 +1,76 @@
+{
+	"populate": {
+		"nethersulfur": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:sulfur_block",
+				"material": "minecraft:netherrack",
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+
+            "nethergold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:nethergoldore",
+					"metadata": 4},
+				"material": "minecraft:netherrack",
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+
+            "nethersilver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:nethersilverore",
+					"metadata": 4},
+				"material": "minecraft:netherrack",
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

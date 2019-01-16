@@ -1,0 +1,187 @@
+{
+	"populate": {
+		
+            "endsapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:sapphireore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+            "endamethyst": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:amethystore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+            "endaquamarine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:aquamarineore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},		
+		
+            "endcitrine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:citrineore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+            "endruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:spinelore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+            "endspinel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:spinelore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+            "endtopaz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:topazore",
+				"material": "minecraft:end_stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+
+	}
+}

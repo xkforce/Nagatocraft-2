@@ -1,0 +1,32 @@
+{
+	"populate": {
+		"salt_flats_medium": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "contenttweaker:orangesand",
+				"material": [
+					"minecraft:sand",
+					"metadata": 1}
+				],
+				"use-material": true
+			},
+			"cluster-count": 20,
+			"chunk-chance": 20,
+			"min-height": 50,
+			"max-height": 80,
+			"material": [
+					"minecraft:sand",
+					"metadata": 1}
+			],
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+} 
