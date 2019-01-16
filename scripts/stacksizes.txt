@@ -1,2 +1,0 @@
-val ostrichfeather = <faunanatural:feather_ostrich>;
-ostrichfeather.maxStackSize = 64; 
