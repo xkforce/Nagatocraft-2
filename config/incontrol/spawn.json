@@ -1,0 +1,125 @@
+[
+  {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@0",
+    "random": .025,
+    "dimension": 0,
+    "result": "default"
+  },
+  {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@1",
+    "random": .01,
+    "dimension": 0,
+    "result": "default"
+  },
+  {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@2",
+    "random": .01,
+    "dimension": 0,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:sand",
+    "random": .025,
+    "dimension": 0,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:gravel",
+    "random": .025,
+    "dimension": 0,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:netherrack",
+    "random": .025,
+    "dimension": -1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:soul_sand",
+    "random": .01,
+    "dimension": -1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@0",
+    "random": .025,
+    "dimension": 1,
+    "result": "default"
+  },
+  {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@1",
+    "random": .01,
+    "dimension": 1,
+    "result": "default"
+  },
+  {
+    "mob": "enderman",
+    "helditem": "minecraft:dirt@2",
+    "random": .01,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:sand",
+    "random": .025,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "biomesoplenty:dirt@8",
+    "random": .025,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:gravel",
+    "random": .025,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:netherrack",
+    "random": .025,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "minecraft:soul_sand",
+    "random": .01,
+    "dimension": 1,
+    "result": "default"
+  },
+    {
+    "mob": "enderman",
+    "helditem": "biomesoplenty:dirt@8",
+    "random": .01,
+    "dimension": 1,
+    "result": "default"
+  },
+  {
+    "structure": "Endcity",
+    "maxcount": "8,minecraft:shulker",
+    "mob": "shulker",
+    "dimension": 1,
+    "weight": 1,
+    "maxlight": 7,
+    "result": "allow",
+    "groupcountmin": 1,
+    "groupcountmax": 2
+  }
+]

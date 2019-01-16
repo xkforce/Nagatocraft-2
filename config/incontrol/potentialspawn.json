@@ -1,0 +1,14 @@
+[
+  {
+    "remove": "exoticbirds:parrot"
+  },
+  {
+    "remove": "reptilemod:chameleon"
+  },
+  {
+    "remove": "reptilemod:alligator"
+  },
+  {
+    "remove": "zawa:gaur"
+  }
+]
