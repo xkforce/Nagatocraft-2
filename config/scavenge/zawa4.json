@@ -1,0 +1,34 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "zawa4",
+            "type":
+            {
+            "type": "block",
+            "name": "zawa:small_sea_anemone"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "minecraft:dye",
+			"meta": 15
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            }     
+            ],
+			"drops":
+			[
+            {
+            "name": "zawa:small_sea_anemone"
+            }
+			]
+        }
+    ]
+}

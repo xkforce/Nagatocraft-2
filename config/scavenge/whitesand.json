@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "whitesand",
+            "type":
+            {
+            "type": "ore",
+            "name": "yukisand"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:white_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "biomesoplenty:white_sand"
+            }
+            ]
+        }
+    ]
+}

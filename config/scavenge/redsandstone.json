@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "redsandstone",
+            "type":
+            {
+            "type": "ore",
+            "name": "yukisandstone"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:red_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 4
+            },
+            {
+            "type": "consume_block",
+            "name": "minecraft:red_sandstone"
+            }
+            ]
+        }
+    ]
+}

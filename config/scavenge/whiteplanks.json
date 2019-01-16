@@ -1,0 +1,31 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "whiteplanks",
+            "type":
+            {
+            "type": "ore",
+            "name": "plankWood"
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+			"type": "require_item",
+			"name": "ctdpaint:white_brush"
+            },
+            {
+            "type": "damage_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "consume_block",
+            "name": "quark:stained_planks"
+            }
+            ]
+        }
+    ]
+}
