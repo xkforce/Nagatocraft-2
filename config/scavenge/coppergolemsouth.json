@@ -1,0 +1,50 @@
+{
+    "block_pools" :
+    [
+        {
+            "name": "coppergolem",
+            "type":
+            {
+            "type": "block",
+            "name": "thermalfoundation:storage",
+            "meta": 0
+            },
+            "clicktype": "right",
+            "disableJEI": true,    
+            "properties":
+            [
+            {
+            "type": "require_side",
+            "sides": ["south"]
+            },
+            {
+            "type": "require_block",
+            "name": "thermalfoundation:storage",
+            "meta": 0,
+            "sides":["north","west","east"]
+            },
+            {
+			"type": "require_item",
+			"name": "minecraft:pumpkin"
+            },
+            {
+            "type": "consume_item",
+            "offHand": "true",
+            "amount": 1
+            },
+            {
+            "type": "use_command",
+            "name": "summon",
+            "arguments":"golems:golem_bookshelf"
+            },
+            {
+            "type": "modify_required",
+            "sides":["north","west","east"]
+            },
+            {
+            "type": "consume_block"
+            }
+            ]
+        }
+    ]
+}
